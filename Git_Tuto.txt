@@ -1,0 +1,28 @@
+            -- Cloner le projet -- 
+
+- Installer Git et Visual Studio Code.
+- Ouvrir VS Code et se connecter à GitHub si le dépôt est privé ou si une authentification est demandée.
+- Appuyer sur Ctrl + Shift + P et rechercher Git: Clone.
+- Coller l'adresse du dépôt GitHub : text       https://github.com/cbailer01/CellSightLite.git       
+- Choisir le dossier de destination sur son ordinateur.
+- Cliquer sur Open pour ouvrir le projet cloné dans VS Code.
+- Si VS Code demande si tu fais confiance aux fichiers du projet, vérifier que la source est bien celle attendue avant d'accepter.
+
+
+
+            -- Push Projet --
+
+- Ouvrir le projet dans VS Code.
+- Cliquer sur Source Control dans la barre latérale gauche.
+- Vérifier les fichiers modifiés et écrire un message de commit, par exemple Correction de la page d'accueil.
+- Cliquer sur Commit (la coche ✓). Si nécessaire, accepter de stage les fichiers concernés.
+- Cliquer sur Sync Changes ou Push pour envoyer les modifications sur GitHub.
+
+
+            -- Pull Projet --
+
+- Ouvrir le projet dans VS Code.
+- Enregistrer ses propres modifications en cours, et faire un commit si nécessaire.
+- Ouvrir Source Control ou la palette de commandes avec Ctrl + Shift + P.
+- Rechercher Git: Pull et lancer la commande.
+- Attendre la fin de la récupération, puis vérifier que le projet fonctionne toujours.
