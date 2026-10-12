@@ -52,11 +52,16 @@ std::string Datasheet::displayName() const {
 
 void Datasheet::validate() const {
     // TODO Étape 1 — Datasheet::validate : à écrire (voir le sujet).
+    // Si une condition fausse : lever (true false ?) std::validarguments + msgs
 }
 
 bool Datasheet::voltageInRange(double voltage_V) const {
-    // TODO Étape 1 — Datasheet::voltageInRange : à écrire (voir le sujet).
-    throw NotImplemented(1, "Datasheet::voltageInRange");
+    // Return false si la tension n'est pas comprise entre Vmin et Vmax
+    double Vmax = limits_.maxVoltage_V;
+    double Vmin = limits_.minVoltage_V;
+    if (voltage_V < Vmin || voltage_V > Vmax){
+        return false;
+    } else return true;
 }
 
 double Datasheet::cRateToCurrent(double cRate) const {
