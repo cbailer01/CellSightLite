@@ -1,0 +1,9 @@
+# id;TP-FAST-NMC-3C
+# nom;Charge rapide 3C (NON VALIDE)
+# repetitions;50
+type;c_rate;voltage_V;cutoff_c_rate;duration_s
+CHARGE_CC;3;4.3;0;0
+CHARGE_CV;0;4.3;0.05;0
+REST;0;0;0;900
+DISCHARGE_CC;1;2.5;0;0
+REST;0;0;0;900

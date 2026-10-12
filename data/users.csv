@@ -1,0 +1,4 @@
+login;name;role
+admin;Responsable du laboratoire;ADMIN
+chercheur;Doctorant batteries;RESEARCHER
+invite;Visiteur;VIEWER

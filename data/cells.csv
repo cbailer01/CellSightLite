@@ -1,0 +1,5 @@
+id;datasheet_id;bench_id;channel;plan_id;location;start_date;data_file
+CS-NMC-001;DS-VC18650-25N;BENCH-ARB-01;3;TP-CYC-NMC-1C;Enceinte climatique EC-1 (25 °C);2026-01-12;raw/arbin/CS-NMC-001.csv
+CS-NMC-002;DS-VC18650-25N;BENCH-BSY-01;5;TP-CYC-NMC-1C;Enceinte climatique EC-2 (45 °C);2026-02-03;raw/basytec/CS-NMC-002.txt
+CS-LFP-001;DS-FL26650-30;BENCH-ARB-01;7;TP-CYC-LFP-1C;Enceinte climatique EC-1 (25 °C);2026-01-19;raw/arbin/CS-LFP-001.csv
+CS-LFP-002;DS-FL26650-30;BENCH-BSY-01;2;TP-CYC-LFP-2C;Enceinte climatique EC-2 (25 °C);2026-02-10;raw/basytec/CS-LFP-002.txt

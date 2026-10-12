@@ -1,0 +1,9 @@
+# id;TP-CYC-LFP-2C
+# nom;Vieillissement cyclique 1C-2C (LFP)
+# repetitions;100
+type;c_rate;voltage_V;cutoff_c_rate;duration_s
+CHARGE_CC;1;3.65;0;0
+CHARGE_CV;0;3.65;0.05;0
+REST;0;0;0;900
+DISCHARGE_CC;2;2.5;0;0
+REST;0;0;0;900

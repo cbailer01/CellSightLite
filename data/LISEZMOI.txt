@@ -1,0 +1,11 @@
+Données SYNTHÉTIQUES générées par CellSight (cellsight.synth).
+Fabricants et modèles de cellules fictifs. Ne pas utiliser comme données réelles.
+
+cells.csv        une ligne par cellule (référence datasheet, banc, canal, plan, fichier de mesures)
+datasheets.csv   caractéristiques constructeur ; le PDF est dans datasheets/
+benches.csv      bancs de cyclage (Arbin, BaSyTec)
+users.csv        utilisateurs et rôles (ADMIN, RESEARCHER, VIEWER)
+plans/           plans de test : métadonnées en lignes '#', puis une étape par ligne
+raw/arbin/       exports type Arbin  : ',' ; temps en secondes ; courant > 0 en charge
+raw/basytec/     exports type BaSyTec : en-tête '~' ; ';' ; temps en HEURES ; courant > 0 en charge
+truth/           vérité terrain par cycle (sans bruit de mesure), utilisée par les tests
